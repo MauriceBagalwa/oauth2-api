@@ -4,7 +4,7 @@ const PORT = 2001;
 const app = express();
 
 app.get("/", (req, res) => {
-  res.status(200).send({ status: true, message: "welcome to devops webHooks libre - 005 - 🐱‍🚀" });
+  res.status(200).send({ status: true, message: "welcome to devops webHooks libre - 006 - 🐱‍🚀" });
 });
 
 app.listen(PORT, () => {
