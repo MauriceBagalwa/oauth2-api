@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "serve":"pm2 ls && pm2 save"
+    "serve":"pm2 restart all && pm2 save"
   },
   "dependencies": {
     "cors": "^2.8.5",
